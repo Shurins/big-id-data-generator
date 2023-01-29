@@ -1,0 +1,20 @@
+{
+  "name": "data-generator",
+  "version": "1.0.0",
+  "description": "generate random registration user data, just set count of entries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Antonov",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "convert-array-to-csv": "^2.0.0",
+    "csv-stringify": "^6.2.3",
+    "faker": "^6.6.6"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
